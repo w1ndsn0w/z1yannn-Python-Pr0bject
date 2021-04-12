@@ -10,8 +10,8 @@ findLink = re.compile(r'<p>(.*?)</p>')     #创建正则表达式，表示规则
 i = 0
 
 url = 'http://admin.ddy.tjyun.com'
-username = 'rgznysjkxxytw'      #账号
-password = '1234Abcd'           #密码
+username = ''      #账号
+password = ''           #密码
 workbook = xlwt.Workbook(encoding='utf-8', style_compression=0)
 worksheet = workbook.add_sheet('sheet1', cell_overwrite_ok=True)
 sheet = namelist.sheet_by_index(0)
